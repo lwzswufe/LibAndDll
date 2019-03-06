@@ -6,6 +6,7 @@
 #include "pch.h"
 #include "Vector.h"
 #include "Person.h"
+#include "Read_ini.h"
 #include <iostream>
 using std::cout; using std::endl;
 int main()
@@ -26,5 +27,8 @@ int main()
     Show_Person(&p1);
     Show_Person(&p2);
     Show_Person(&p);
+
+    IniType conf = Read_ini("Trade.ini");
+    show_ini(conf);
     return 0;
 }
