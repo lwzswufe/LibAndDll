@@ -1,4 +1,5 @@
 #pragma once
+#include "pch.h"
 typedef std::map<std::string, std::map<std::string, std::string>> IniType;
 
 void show_ini(IniType config);

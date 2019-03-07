@@ -1,5 +1,8 @@
 #pragma once
 enum class Gender {male, female, undef};
+typedef std::map<std::string, std::map<std::string, std::string>> IniType;
+extern IniType Read_ini(const char* filename);
+extern void show_ini(IniType conf);
 
 class Person
 {

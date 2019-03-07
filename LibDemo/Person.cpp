@@ -7,6 +7,8 @@ Person::Person(string name, Gender gender, Person* father, Person* mather)
     this->name = name;
     this->father = father;
     this->mother = mather;
+    IniType conf = Read_ini("Trade.ini");
+    show_ini(conf);
 }
 
 Person::~Person()

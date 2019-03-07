@@ -28,7 +28,5 @@ int main()
     Show_Person(&p2);
     Show_Person(&p);
 
-    IniType conf = Read_ini("Trade.ini");
-    show_ini(conf);
     return 0;
 }

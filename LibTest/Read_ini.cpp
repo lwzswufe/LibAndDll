@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "pch.h"
 #include "Read_ini.h"
 
 void ini_file_line_parse(char* line, std::string &key, std::string &value)
